@@ -1,0 +1,25 @@
+{
+  "name": "stat",
+  "version": "1.0.0",
+  "description": "Semester Transition Advising Tool",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:msoe.edu/sdl/y22sdl/sdl-schedtool/stat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.2.5"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "express": "^4.17.1",
+    "node": "^17.1.0",
+    "react": "^17.0.2"
+  }
+}

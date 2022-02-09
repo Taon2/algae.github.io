@@ -1,0 +1,22 @@
+body {
+    background-color: #363636;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80vh;
+}
+
+#inputs {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+button {
+    margin: 20px 20px 20px 20px;
+}
