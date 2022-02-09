@@ -8,7 +8,7 @@ app.use(express.static('public'))
 
 //Home page, this is the page that will be viewed on start
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname + '/public/index.html'));
+    res.sendFile(path.join(__dirname + '/index.html'));
 })
 
 app.listen(port, () => {
